@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.isbulkotlin.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_workFragment"
+            app:destination="@id/workFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deneyimlerFragment"
+        android:name="com.example.isbulkotlin.fragments.DeneyimlerFragment"
+        android:label="fragment_deneyimler"
+        tools:layout="@layout/fragment_deneyimler" />
+    <fragment
+        android:id="@+id/bilgiFragment"
+        android:name="com.example.isbulkotlin.fragments.BilgiFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_bilgi" >
+        <action
+            android:id="@+id/action_bilgiFragment_to_deneyimlerFragment"
+            app:destination="@id/deneyimlerFragment" />
+        <action
+            android:id="@+id/action_bilgiFragment_to_egitimlerFragment"
+            app:destination="@id/egitimlerFragment" />
+        <action
+            android:id="@+id/action_bilgiFragment_to_yetenekFragment"
+            app:destination="@id/yetenekFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.isbulkotlin.fragments.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+        <action
+            android:id="@+id/action_profilFragment_to_bilgiFragment"
+            app:destination="@id/bilgiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/egitimlerFragment"
+        android:name="com.example.isbulkotlin.fragments.EgitimlerFragment"
+        android:label="fragment_egitimler"
+        tools:layout="@layout/fragment_egitimler" />
+    <fragment
+        android:id="@+id/yetenekFragment"
+        android:name="com.example.isbulkotlin.fragments.YetenekFragment"
+        android:label="fragment_yetenek"
+        tools:layout="@layout/fragment_yetenek" />
+    <fragment
+        android:id="@+id/workFragment"
+        android:name="com.example.isbulkotlin.fragments.WorkFragment"
+        android:label="fragment_work"
+        tools:layout="@layout/fragment_work" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/advertFragment"
+        android:name="com.example.isbulkotlin.fragments.AdvertFragment"
+        android:label="fragment_advert"
+        tools:layout="@layout/fragment_advert" >
+        <action
+            android:id="@+id/action_advertFragment_to_addilanFragment"
+            app:destination="@id/addilanFragment" />
+        <action
+            android:id="@+id/action_advertFragment_to_basvurularFragment"
+            app:destination="@id/basvurularFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addilanFragment"
+        android:name="com.example.isbulkotlin.fragments.AddilanFragment"
+        android:label="fragment_addilan"
+        tools:layout="@layout/fragment_addilan" />
+    <fragment
+        android:id="@+id/basvurularFragment"
+        android:name="com.example.isbulkotlin.fragments.BasvurularFragment"
+        android:label="fragment_basvurular"
+        tools:layout="@layout/fragment_basvurular" >
+        <argument
+            android:name="ilan"
+            app:argType="integer" />
+    </fragment>
+</navigation>

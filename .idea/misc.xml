@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2382882882882883" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2382882882882883" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.2382882882882883" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/activity_loginctivity.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/activity_main.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_basvuru.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_deneyim.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_egitim.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_mywork.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_work.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/card_yetenek.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/deneyim_ekle.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/egitim_ekle.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_addilan.xml" value="0.25" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_advert.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_basvurular.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_bilgi.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_deneyim.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_deneyimler.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_egitimler.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_home.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_info.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_login.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_profil.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_register.xml" value="0.259375" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_work.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/fragment_yetenek.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/layout/yetenek_ekle.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/menu/bottom_menu.xml" value="0.22432432432432434" />
+        <entry key="..\:/Users/mvi/AndroidStudioProjects/IsBulKotlin/app/src/main/res/menu/nav_menu.xml" value="0.22432432432432434" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
